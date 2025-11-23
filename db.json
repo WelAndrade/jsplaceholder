@@ -1,51 +1,103 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
   "photos": [
     {
-      "albumId": 1,
       "id": 1,
-      "title": "accusamus beatae ad facilis cum similique qui sunt",
-      "url": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm"
+      "albumId": 1,
+      "title": "Foto 1",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/0/200/200",
+      "url": "https://picsum.photos/id/0/800/600"
     },
     {
-      "albumId": 1,
       "id": 2,
-      "title": "reprehenderit est deserunt velit ipsam",
-      "url": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm"
+      "albumId": 1,
+      "title": "Foto 2",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/1/200/200",
+      "url": "https://picsum.photos/id/1/800/600"
     },
     {
-      "albumId": 1,
       "id": 3,
-      "title": "officia porro iure quia iusto qui ipsa ut modi",
-      "url": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm"
-    },
-    {
       "albumId": 1,
+      "title": "Foto 3",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/2/200/200",
+      "url": "https://picsum.photos/id/2/800/600"
+    },
+
+    {
       "id": 4,
-      "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
-      "url": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm",
-      "thumbnailUrl": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm"
+      "albumId": 2,
+      "title": "Foto 1",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/3/200/200",
+      "url": "https://picsum.photos/id/3/800/600"
     },
     {
-        "albumId": 2,
-        "id": 4,
-        "title": "second album",
-        "url": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm",
-        "thumbnailUrl": "https://lh3.googleusercontent.com/pw/AP1GczNqL1D_V18dkTpkaDTehYu_yfI6zpoXjXMXzvuc2WrNg4YmFCiDHyHv8se9P5coGPE0FwBoKIO0KxOMfTIm1U-A1JT2Gaogt-8IHJLqYx4pxMcaOKuHrbwjaiii7pr8uaN3k2eFxXb4X2Om_7Yuau_4oA=w667-h889-s-no-gm"
-      }
-  ],
-  "profile": {
-    "name": "biancacamargomachado"
-  }
+      "id": 5,
+      "albumId": 2,
+      "title": "Foto 2",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/4/200/200",
+      "url": "https://picsum.photos/id/4/800/600"
+    },
+    {
+      "id": 6,
+      "albumId": 2,
+      "title": "Foto 3",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/5/200/200",
+      "url": "https://picsum.photos/id/5/800/600"
+    },
+
+    {
+      "id": 7,
+      "albumId": 3,
+      "title": "Foto 1",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/6/200/200",
+      "url": "https://picsum.photos/id/6/800/600"
+    },
+    {
+      "id": 8,
+      "albumId": 3,
+      "title": "Foto 2",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/7/200/200",
+      "url": "https://picsum.photos/id/7/800/600"
+    },
+    {
+      "id": 9,
+      "albumId": 3,
+      "title": "Foto 3",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/8/200/200",
+      "url": "https://picsum.photos/id/8/800/600"
+    },
+
+    {
+      "id": 10,
+      "albumId": 4,
+      "title": "Foto 1",
+      "author": "Alejandro Escamilla",
+      "thumbnailUrl": "https://picsum.photos/id/9/200/200",
+      "url": "https://picsum.photos/id/9/800/600"
+    },
+    {
+      "id": 11,
+      "albumId": 4,
+      "title": "Foto 2",
+      "author": "Paul Jarvis",
+      "thumbnailUrl": "https://picsum.photos/id/10/200/200",
+      "url": "https://picsum.photos/id/10/800/600"
+    },
+    {
+      "id": 12,
+      "albumId": 4,
+      "title": "Foto 3",
+      "author": "Paul Jarvis",
+      "thumbnailUrl": "https://picsum.photos/id/11/200/200",
+      "url": "https://picsum.photos/id/11/800/600"
+    }
+  ]
 }
